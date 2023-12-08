@@ -1,0 +1,39 @@
+{
+  "title":"Você é mais dia ou noite ?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual é o seu horário preferido do dia ?",
+      "options":[
+        {"id": 1, "name":"Manhã", "alias":"A"},
+        {"id": 2, "name":"Noite", "alias":"B"},
+        {"id": 3, "name":"tarde", "alias":"A"},
+        {"id": 4, "name":"Madrugada", "alias":"B"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Você é mais produtivo quando ?",
+      "options":[
+        {"id": 1, "name":"No final da tarde", "alias":"B"},
+        {"id": 2, "name":"Depois do jantar", "alias":"B"},
+        {"id": 3, "name":"Logo ao acordar", "alias":"A"},
+        {"id": 4, "name":"Depois do almoço", "alias":"A"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Quando você prefere se exercitar ?",
+      "options":[
+        {"id": 1, "name":"Antes do café da manhã", "alias":"A"},
+        {"id": 2, "name":"Antes do jantar", "alias":"B"},
+        {"id": 3, "name":"Antes de dormir", "alias":"B"},
+        {"id": 4, "name":"Depois do almoço", "alias":"A"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você é mais dia! Você gosta de aproveitar a luz do sol, ser produtivo durante o dia e se exercitar antes do jantar.",
+    "B": "Você é mais noite! Você gosta da tranquilidade da noite, ser produtivo depois do jantar e se exercitar antes de dormir."
+  }
+}
